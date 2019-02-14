@@ -129,7 +129,7 @@ public class CatTest {
         boolean isAnInstance = cat instanceof Animal;
 
         // Then (we expect the boolean to return true)
-        Assert.assertEquals(true, isAnInstance);
+        Assert.assertTrue(isAnInstance);
     }
 
     @Test
@@ -142,7 +142,7 @@ public class CatTest {
         boolean isAnInstance = cat instanceof Mammal;
 
         // Then (we expect the boolean to return true)
-        Assert.assertEquals(true, isAnInstance);
+        Assert.assertTrue(isAnInstance);
     }
 }
 
